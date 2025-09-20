@@ -1,24 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-    screens: {
-        sm: '480px';
-        md: '768px';
-        lg: '976px';
-        xl: '1440px';
-
-    },
-    extend:{
-        colors:{
-            brightRed: 'hsl(12, 88%, 59%)',
-            brightRedLight: 'hsl(12, 88%, 69%)',
-            brightRedSupLight: 'hsl(12, 88%, 95%)',
-            darkBlue: 'hsl(228, 39%, 23%)',
-            darkGrayishBlue: 'hsl(227, 12%, 61%)',
-            veryDarkBlue: 'hsl(233, 12%, 13%)',
-            veryPaleRed: 'hsl(13, 100%, 96%)',
-            veryLightGray: 'hsl(0, 0%, 98%)',
-        },
-    },
-    
+  --color-bright-red: hsl(12, 88%, 59%);
+  --color-bright-red-light: hsl(12, 88%, 69%);
+  --color-bright-red-sup-light: hsl(12, 88%, 95%);
+  --color-dark-blue: hsl(228, 39%, 23%);
+  --color-dark-grayish-blue: hsl(227, 12%, 61%);
+  --color-very-dark-blue: hsl(233, 12%, 13%);
+  --color-very-pale-red: hsl(13, 100%, 96%);
+  --color-very-light-gray: hsl(0, 0%, 98%);
 }
